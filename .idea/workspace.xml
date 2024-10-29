@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b898824c-d89c-4b5d-b6c3-38f679413ea5" name="Changes" comment="TESTE 2">
-      <change afterPath="$PROJECT_DIR$/src/Familia.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Familia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Login.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Empresa.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Governo.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Governo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetorExterno.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetorExterno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetorFinanceiro.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetorFinanceiro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +41,12 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/GustavoAzvdo/FluxoCircularDeRenda.git&quot;,
-    &quot;accountId&quot;: &quot;9a3e8cec-9663-48ed-a4fd-1054f4e99ec5&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GustavoAzvdo/FluxoCircularDeRenda.git",
+    "accountId": "9fa87f3f-12a3-40bf-aad1-acbe4e1436cd"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -57,9 +61,15 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Pichau/IdeaProjects/FluxoCircularDeRenda/src"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\IdeaProjects\FluxoCircularDeRenda\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -83,5 +93,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TESTE 2" />
     <option name="LAST_COMMIT_MESSAGE" value="TESTE 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.awt.IllegalComponentStateException" package="java.awt" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
