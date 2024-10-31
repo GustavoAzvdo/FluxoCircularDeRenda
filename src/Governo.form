@@ -6,7 +6,7 @@
       <xy x="20" y="20" width="713" height="722"/>
     </constraints>
     <properties>
-      <preferredSize width="400" height="300"/>
+      <preferredSize width="400" height="600"/>
     </properties>
     <border type="none" title="GOVERNO"/>
     <children>
@@ -63,13 +63,17 @@
               <text value="Calcular Imposto"/>
             </properties>
           </component>
-          <component id="1ab13" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+          <component id="1ab13" class="javax.swing.JTextField" binding="txtSomaImp">
             <constraints>
               <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <text value=""/>
+            </properties>
           </component>
         </children>
       </grid>
@@ -150,7 +154,10 @@
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
           </component>
         </children>
       </grid>
@@ -213,7 +220,11 @@
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <text value=""/>
+            </properties>
           </component>
         </children>
       </grid>
@@ -260,7 +271,10 @@
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+            </properties>
           </component>
           <component id="7a868" class="javax.swing.JTextField" binding="txtGG">
             <constraints>
@@ -268,7 +282,9 @@
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <editable value="false"/>
+            </properties>
           </component>
           <component id="937fa" class="javax.swing.JTextField" binding="txtCofre">
             <constraints>

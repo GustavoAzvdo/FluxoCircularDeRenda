@@ -43,7 +43,7 @@ public class Login {
         jota.setVisible(true);
     }
 
-    // Método para configurar o botão
+
     private void configurarBotao(JButton botao, JPanel tela) {
         botao.addActionListener(new ActionListener() {
             @Override
@@ -56,14 +56,14 @@ public class Login {
         // Instanciação das classes com os painéis
         Empresa empresa = new Empresa();
         Familia familia = new Familia();
-        SetorExterno setorExterno = new SetorExterno();
+        //SetorExterno setorExterno = new SetorExterno();
         SetorFinanceiro setorFinanceiro = new SetorFinanceiro();
         Governo governo = new Governo();
 
         // Configuração dos botões com os respectivos painéis
         configurarBotao(empresaButton, empresa.getTelaEmpresa());
         configurarBotao(familiaButton, familia.getTelaFamilia());
-        configurarBotao(setorExternoButton, setorExterno.getTelaSetorExterno());
+        //configurarBotao(setorExternoButton, setorExterno.getTelaSetorExterno());
         configurarBotao(setorFinanceiroButton, setorFinanceiro.getTelaSetorFinanceiro());
         configurarBotao(governoButton, governo.getTelaGoverno());
     }
