@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b898824c-d89c-4b5d-b6c3-38f679413ea5" name="Changes" comment="Atualizacao Governo">
-      <change afterPath="$PROJECT_DIR$/src/SetorFinanceiroScreens/CaptacaoRecursos.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SetorFinanceiroScreens/Investimento.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SetorFinanceiro.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetorFinanceiro.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SetorFinanceiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetorFinanceiro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SetorFinanceiroScreens/CaptacaoRecursos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetorFinanceiroScreens/CaptacaoRecursos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SetorFinanceiroScreens/Consulta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetorFinanceiroScreens/Consulta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SetorFinanceiroScreens/Investimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SetorFinanceiroScreens/Investimento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730154281279</updated>
       <workItem from="1730418319430" duration="2891000" />
-      <workItem from="1730483123257" duration="1441000" />
+      <workItem from="1730483123257" duration="7769000" />
     </task>
     <task id="LOCAL-00001" summary="TESTE 2">
       <option name="closed" value="true" />

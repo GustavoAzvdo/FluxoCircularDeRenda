@@ -12,6 +12,14 @@ public class CaptacaoRecursos {
     private JTextField valorCaptacaoText;
     private JButton captacaoButton;
 
+    public CaptacaoRecursos(){
+        captacaoButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(captacaoButton,"Clicado");
+            }
+        });
+    }
 
     public JPanel getTelaCaptacao(){
         return telaCaptacao;

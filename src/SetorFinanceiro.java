@@ -3,41 +3,51 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import SetorFinanceiroScreens.*;
+
 public class SetorFinanceiro {
     private CaptacaoRecursos captacao = new CaptacaoRecursos();
     private Investimento investimento = new Investimento();
     private Consulta consulta = new Consulta();
+    private JFrame jotinha = new JFrame("Setor Financeiro");
     private JPanel telaSetorFinanceiro;
-    private JButton captacaoButton;
-    private JButton investirButton;
-    private JButton consultarButton;
+    private JButton goCaptacaoButton;
+    private JButton goInvestirButton;
+    private JButton goConsultarButton;
 
     public SetorFinanceiro() {
-        captacaoButton.addActionListener(new ActionListener() {
+        goCaptacaoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                captacao.getTelaCaptacao();
+                jotinha.setContentPane(captacao.getTelaCaptacao());
+                jotinha.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                jotinha.pack();
+                jotinha.setVisible(true);
             }
         });
 
-        investirButton.addActionListener(new ActionListener() {
+        goInvestirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
-                investimento.getTelaInvestimento();
+                jotinha.setContentPane(captacao.getTelaCaptacao());
+                jotinha.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                jotinha.pack();
+                jotinha.setVisible(true);
             }
         });
 
-        consultarButton.addActionListener(new ActionListener() {
+        goConsultarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                consulta.getTelaConsulta();
+                jotinha.setContentPane(captacao.getTelaCaptacao());
+                jotinha.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                jotinha.pack();
+                jotinha.setVisible(true);
             }
         });
     }
 
         public JPanel getTelaSetorFinanceiro(){
-        return telaSetorFinanceiro;
+            return telaSetorFinanceiro;
         }
   
 }

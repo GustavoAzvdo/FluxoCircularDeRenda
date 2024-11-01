@@ -12,7 +12,7 @@
       <font/>
     </border>
     <children>
-      <component id="6058b" class="javax.swing.JButton" binding="captacaoButton">
+      <component id="6058b" class="javax.swing.JButton" binding="goCaptacaoButton">
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -20,7 +20,7 @@
           <text value="Criar uma  Captação de Recursos"/>
         </properties>
       </component>
-      <component id="d1691" class="javax.swing.JButton" binding="investirButton">
+      <component id="d1691" class="javax.swing.JButton" binding="goInvestirButton">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -28,7 +28,7 @@
           <text value="Investir em um produto"/>
         </properties>
       </component>
-      <component id="a06a4" class="javax.swing.JButton" binding="consultarButton">
+      <component id="a06a4" class="javax.swing.JButton" binding="goConsultarButton">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
