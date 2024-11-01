@@ -8,26 +8,27 @@ public class SetorFinanceiro {
     private Investimento investimento = new Investimento();
     private Consulta consulta = new Consulta();
     private JPanel telaSetorFinanceiro;
-    private JButton captacaoRecursosButton = new JButton("Captação de Recursos");
-    private JButton investimentoButton = new JButton("Investir");
-    private JButton consultaSeEButton = new JButton("Consultar saldo e extrato");
+    private JButton captacaoButton;
+    private JButton investirButton;
+    private JButton consultarButton;
 
     public SetorFinanceiro() {
-        captacaoRecursosButton.addActionListener(new ActionListener() {
+        captacaoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 captacao.getTelaCaptacao();
             }
         });
 
-        investimentoButton.addActionListener(new ActionListener() {
+        investirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+
                 investimento.getTelaInvestimento();
             }
         });
 
-        consultaSeEButton.addActionListener(new ActionListener() {
+        consultarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 consulta.getTelaConsulta();
@@ -36,7 +37,7 @@ public class SetorFinanceiro {
     }
 
         public JPanel getTelaSetorFinanceiro(){
-            return telaSetorFinanceiro;
+        return telaSetorFinanceiro;
         }
   
 }

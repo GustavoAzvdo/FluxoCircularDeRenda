@@ -1,8 +1,6 @@
 package SetorFinanceiroScreens;
 
-import javax.swing.JPanel;
-
-public class Consulta {
+public class Consulta<JPanel> {
     private JPanel telaConsulta;
 
     public JPanel getTelaConsulta(){
