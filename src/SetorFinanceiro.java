@@ -28,7 +28,7 @@ public class SetorFinanceiro {
         goInvestirButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                jotinha.setContentPane(captacao.getTelaCaptacao());
+                jotinha.setContentPane(investimento.getTelaInvestimento());
                 jotinha.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 jotinha.pack();
                 jotinha.setVisible(true);
@@ -38,7 +38,7 @@ public class SetorFinanceiro {
         goConsultarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                jotinha.setContentPane(captacao.getTelaCaptacao());
+                jotinha.setContentPane(consulta.getTelaConsulta());
                 jotinha.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
                 jotinha.pack();
                 jotinha.setVisible(true);
