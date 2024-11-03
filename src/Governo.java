@@ -47,8 +47,8 @@ public class Governo {
                     double impCorp = Double.parseDouble(txtImpCorporativo.getText());
 
                     double totImp = impRenda + impCorp;
-                    gastoTotal += totImp;
-                    txtGG.setText(String.valueOf(gastoTotal));
+                    //gastoTotal += totImp;
+                    //txtGG.setText(String.valueOf(gastoTotal));
 
                     txtSomaImp.setText(String.valueOf(totImp));
                 }
