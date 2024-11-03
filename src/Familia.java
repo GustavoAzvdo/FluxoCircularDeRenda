@@ -4,12 +4,14 @@ import java.awt.event.ActionListener;
 
 public class Familia {
     private JPanel telaFamilia;
+    private JTextField textField1;
+    private JTextField txtAlimentos;
+    private JTextField txtAluguel;
+    private JButton btnPagarImposto;
     private JTextField txtRendaMensal;
-    private JLabel Consumo;
     private JButton gerarPoupançaButton;
     private JTextField txtConsumo;
     private JLabel lblResultado;
-
 
 
     public Familia() {  // Corrigido para usar o nome correto da classe

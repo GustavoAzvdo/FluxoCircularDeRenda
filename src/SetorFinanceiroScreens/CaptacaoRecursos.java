@@ -1,17 +1,25 @@
 package SetorFinanceiroScreens;
 
 import javax.swing.*;
-
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class CaptacaoRecursos {
     private JPanel telaCaptacao;
-    private JButton CaptacaoRecursos;
-    private JLabel QDC = new JLabel("Quanto deseja captar: ");
-    private JTextField areaQDC;
-    private String[] seres = {"Familia", "Empresas"};
-    private JComboBox<String> setores = new JComboBox<String>(seres);
-    private JLabel DQVCOR = new JLabel("De quem você captara os recursos: ");
+    private JLabel nomeCaptacaoLabel;
+    private JTextField nomeCaptacaoText;
+    private JLabel valorCaptacaoLabel;
+    private JTextField valorCaptacaoText;
+    private JButton captacaoButton;
 
+    public CaptacaoRecursos(){
+        captacaoButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JOptionPane.showMessageDialog(captacaoButton,"Clicado");
+            }
+        });
+    }
 
     public JPanel getTelaCaptacao(){
         return telaCaptacao;
